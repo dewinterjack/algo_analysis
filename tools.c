@@ -6,12 +6,13 @@ int ms;
 void clearScreen(){ //Default header for certain points in the program.
 	system("clear");
 	printf(BLUE "\nSorting Program ~ Jack Dewinter\n" WHITE);
-	printf(GREEN "\nThis is a benchmarking program for sorting algorithms.\n" WHITE);
+	printf(GREEN "\nThis is a benchmarking program for sorting algorithms.\n");
 }
 
 int listAmount(){ //Gets amount of lists from the user
 	int amount = 0;
-	printf("\nAmount of lists: (1 - 10)\n\n");
+	printf("\nInput 1 to view sort results and speeds, input greater than 1 to view a comparison chart." WHITE);
+	printf("\n\nAmount of lists: (1 - 10)\n\n");
 	scanf("%d", &amount);
 	while(amount < 1 || amount > 10){
 		clearScreen();
