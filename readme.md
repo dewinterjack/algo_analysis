@@ -6,6 +6,8 @@ Selecting 1 list will show output and timings. Selecting more than will will pro
 
 ![demo gif](demo.gif)
 
+---
+
 ### Instructions
 
 **Linux:**
